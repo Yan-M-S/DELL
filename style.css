@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 40px;
+}
+h2 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.container {
+  max-width: 640px;
+  height: 480px;
+  margin: 100px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control input {
+  width: 280px;
+  height: 30px;
+  margin-bottom: 30px;
+  outline: 0;
+}
+.form-control button {
+  width: 280px;
+  margin-bottom: 30px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: gray;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-control button:hover {
+  background-color: rgb(160, 157, 143);
+  transition-delay: 0.2s;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  border: none;
+  border-radius: 10px;
+}
+tr {
+  background: rgb(160, 157, 143);
+}
+tr:nth-child(even) {
+  background: #fdfafa;
+}
+
+th,
+td {
+  padding: 10px 30px;
+}
+
+th {
+  border-bottom: 1px solid #d4d4d4;
+  color: rgb(17, 17, 17);
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+#aviso {
+  margin-top: 15px;
+  color: red;
+}
